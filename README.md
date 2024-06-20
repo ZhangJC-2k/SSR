@@ -1,5 +1,5 @@
 # SSR
-This is a repo for our work "**SSR: Improving Spectral Snapshot Reconstruction with Spatial-Spectral Rectification**"
+This is a repo for our work "**[Improving Spectral Snapshot Reconstruction with Spatial-Spectral Rectification](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Improving_Spectral_Snapshot_Reconstruction_with_Spectral-Spatial_Rectification_CVPR_2024_paper.html)**"
 
 #### News
 Our work has been accepted by CVPR, codes and results are coming soon (July or August).
