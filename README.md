@@ -4,4 +4,6 @@ This is a repo for our work "**[Improving Spectral Snapshot Reconstruction with 
 #### News
 Our work has been accepted by CVPR, codes and results are coming soon (July or August).
 
+The codes and pre-trained weights have been released. More details and instructions will be updated in a few days.
+
 
