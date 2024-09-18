@@ -26,7 +26,7 @@ parser.add_argument("--seed", default=42, type=int, help='Random_seed')
 parser.add_argument("--batch_size", default=2, type=int, help='Batch_size')
 parser.add_argument("--isTrain", default=True, type=bool, help='Train or test')
 parser.add_argument("--bands", default=28, type=int, help='The number of channels of Datasets')
-parser.add_argument("--scene_num", default=1, type=int, help='The number of scenes of Datasets')
+parser.add_argument("--scene_num", default=205, type=int, help='The number of scenes of Datasets') ## 205 
 parser.add_argument("--lr", default=0.0004, type=float, help='learning rate')
 parser.add_argument("--len_shift", default=2, type=int, help=' shift length among bands')
 opt = parser.parse_args()
