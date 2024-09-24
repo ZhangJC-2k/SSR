@@ -16,7 +16,7 @@ einops
 
 ### 2. Train:
 
-Download the cave dataset of [MST](https://github.com/caiyuanhao1998/MST) from [here](https://pan.baidu.com/share/init?surl=X_uXxgyO-mslnCTn4ioyNQ?pwd=fo0q), put the dataset into the corresponding folder "SSR/CAVE_1024_28/" as the following form:
+Download the cave dataset from [MST](https://github.com/caiyuanhao1998/MST) or [here](https://pan.baidu.com/s/1gyIOfmUWKrjntKobUjwTjw?pwd=lup6), put the dataset into the corresponding folder "SSR/CAVE_1024_28/" as the following form:
 
 	|--CAVE_1024_28
         |--scene1.mat
