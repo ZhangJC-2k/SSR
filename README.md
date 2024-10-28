@@ -7,7 +7,7 @@ Our work has been accepted by CVPR, codes and results are coming soon (July or A
 The codes and pre-trained weights have been released. More details and instructions will be continuously updated.
 
 #### Results
-The simulated and real results of SSR are available [here](https://pan.baidu.com/s/1bLvNKWK6iWkZIvi24MsM_w?pwd=3kde)
+The simulated and real results of SSR are available [here](https://pan.baidu.com/s/1bLvNKWK6iWkZIvi24MsM_w?pwd=3kde).
 
 ### 1. Environment Requirements
 ```shell
