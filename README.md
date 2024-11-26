@@ -1,4 +1,8 @@
 # SSR
+	
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/improving-spectral-snapshot-reconstruction/spectral-reconstruction-on-cave)](https://paperswithcode.com/sota/spectral-reconstruction-on-cave?p=improving-spectral-snapshot-reconstruction)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/improving-spectral-snapshot-reconstruction/spectral-reconstruction-on-kaist)](https://paperswithcode.com/sota/spectral-reconstruction-on-kaist?p=improving-spectral-snapshot-reconstruction)
+
 This is a repo for our work: "**[Improving Spectral Snapshot Reconstruction with Spatial-Spectral Rectification](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Improving_Spectral_Snapshot_Reconstruction_with_Spectral-Spatial_Rectification_CVPR_2024_paper.html)**".
 
 ### News
