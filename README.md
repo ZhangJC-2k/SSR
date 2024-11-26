@@ -12,9 +12,18 @@ The codes and pre-trained weights have been released. More details and instructi
 
 ### Pre-trained weights
 Download pre-trained weights from [Github](https://github.com/ZhangJC-2k/Pre-trained-Models/tree/main/SSR_Pretrain_Weights) or [Baidu disk](
-https://pan.baidu.com/s/1kd4US893FUsIjXDpIokbzQ?pwd=533r) then put them into the corresponding folder "SSR/Checkpoint_pretrain/" folder.
+https://pan.baidu.com/s/1kd4US893FUsIjXDpIokbzQ?pwd=533r) then put them into the corresponding folder "SSR/Checkpoint_pretrain/" folder as the following form:
 
-### Results
+	|--Checkpoint_pretrain
+        |--model_L.pkl
+        |--model_M.pkl
+        |--model_S.pkl
+For testing pre-trained models, run the following command
+```
+python Test_pretrain.py
+```
+Then run 'cal_psnr_ssim.m' in Matlab to get the performance metrics.
+### Simulated and Real Results
 The simulated and real results of SSR are available [here](https://pan.baidu.com/s/1bLvNKWK6iWkZIvi24MsM_w?pwd=3kde).
 
 ### 1. Environment Requirements
@@ -55,10 +64,6 @@ Then run the following command
 ```shell
 cd SSR
 python Test.py
-```
-For testing pre-trained models, run the following command
-```
-python Test_pretrain.py
 ```
 Finally, run 'cal_psnr_ssim.m' in Matlab to get the performance metrics.
 
