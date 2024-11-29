@@ -1,5 +1,6 @@
 # SSR
-	
+
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/improving-spectral-snapshot-reconstruction/spectral-reconstruction-on-real-hsi)](https://paperswithcode.com/sota/spectral-reconstruction-on-real-hsi?p=improving-spectral-snapshot-reconstruction)	
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/improving-spectral-snapshot-reconstruction/spectral-reconstruction-on-cave)](https://paperswithcode.com/sota/spectral-reconstruction-on-cave?p=improving-spectral-snapshot-reconstruction)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/improving-spectral-snapshot-reconstruction/spectral-reconstruction-on-kaist)](https://paperswithcode.com/sota/spectral-reconstruction-on-kaist?p=improving-spectral-snapshot-reconstruction)
 
