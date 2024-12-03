@@ -1,4 +1,8 @@
-# SSR
+<div align="center">
+
+# Improving Spectral Snapshot Reconstruction with Spatial-Spectral Rectification
+Jiancheng Zhang, Haijin Zeng, Yongyong Chen, Dengxiu Yu, Yin-Ping Zhao
+</div>
 
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/improving-spectral-snapshot-reconstruction/spectral-reconstruction-on-real-hsi)](https://paperswithcode.com/sota/spectral-reconstruction-on-real-hsi?p=improving-spectral-snapshot-reconstruction)	
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/improving-spectral-snapshot-reconstruction/spectral-reconstruction-on-cave)](https://paperswithcode.com/sota/spectral-reconstruction-on-cave?p=improving-spectral-snapshot-reconstruction)
