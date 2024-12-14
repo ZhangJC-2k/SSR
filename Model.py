@@ -147,7 +147,7 @@ class FFN(nn.Module):
         return out
 
 
-class SARB(nn.Module):
+class ERB(nn.Module):
     def __init__(self, dim, window_size=(8, 8), dim_head=28, heads=1):
         super().__init__()
         self.WSSA = PreNorm(dim, WSSA(dim=dim, window_size=window_size, dim_head=dim_head, heads=heads,
@@ -217,7 +217,7 @@ class SAB(nn.Module):
         return out
 
 
-class SRB(nn.Module):
+class ARB(nn.Module):
     def __init__(self, dim):
         super().__init__()
         self.CMB = PreNorm(dim, CMB(dim=dim))
@@ -235,8 +235,8 @@ class SSRB(nn.Module):
         super().__init__()
 
         self.pos = nn.Conv2d(dim, dim, 5, 1, 2, groups=dim)
-        self.SARB = SARB(dim, window_size, dim_head, heads)
-        self.SRB = SRB(dim)
+        self.SARB = ERB(dim, window_size, dim_head, heads)
+        self.SRB = ARB(dim)
 
     def forward(self, x):
 
@@ -316,7 +316,7 @@ class Net(torch.nn.Module):
 
         for i in range(opt.stage):
             netlayer.append(SSRU(in_dim=56))
-            netlayer.append(SRB(28))
+            netlayer.append(ARB(28))
 
         self.rhos = nn.ModuleList(para_estimator)
         self.net_stage = nn.ModuleList(netlayer)
@@ -361,7 +361,7 @@ class Net(torch.nn.Module):
             z = f + rho * self.mul_PhiTg(Phi_shift, torch.div(g - Phi_f, PhiPhiT))
             '''SSRU'''
             f = self.net_stage[2 * i](z, Phi)
-            '''SRB'''
+            '''ARB'''
             f = self.net_stage[2 * i + 1](f)
             out.append(f)
 
